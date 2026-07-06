@@ -1,2 +1,50 @@
 /* styles.css */
 
+:root {
+    --primary-color: #e74c3c;
+    --text-color: #333;
+    --secondary-color: #2c3e50;
+}
+
+body {
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #eeeadf;
+    color: var(--text-color);
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: "Rubik Mono One", sans-serif;
+    font-size: 2.5em;
+    color: var(--primary-color);
+    text-align: center;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+h2 {
+    font-family: "Bree Serif", serif;
+    color: var(--secondary-color);
+}
+
+.email {
+    margin-top: -10px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
