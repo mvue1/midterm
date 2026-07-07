@@ -32,9 +32,13 @@ h2 {
     text-align: center;
 }
 
+p {
+    margin: 10px 0px 0px 20px;
+}
+    
 .container {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 20px;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
