@@ -32,8 +32,8 @@ h2 {
     text-align: center;
 }
 
-p {
-    margin: 10px 0px 0px 20px;
+.about-me {
+    margin: 30px 0px -10px 20px;
 }
     
 .container {
@@ -48,5 +48,5 @@ p {
 .img {
     max-width: 80%;
     height: auto;
-    margin: 20px auto;
+    margin: 40px;
 }
