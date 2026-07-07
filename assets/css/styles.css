@@ -25,6 +25,7 @@ h1 {
 h2 {
     font-family: "Bree Serif", serif;
     color: var(--secondary-color);
+    border-bottom: 1px solid var(--secondary-color);
 }
 
 .email {
@@ -33,7 +34,7 @@ h2 {
 }
 
 .about-me {
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 40px;
 }
     
